@@ -1,6 +1,8 @@
 package com.example.multiplatform.jvmmodule
 
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
+import kotlin.test.assertTrue
+
 
 class SomeJvmTest {
 
@@ -10,6 +12,8 @@ class SomeJvmTest {
         java.lang.NoClassDefFoundError: com/example/multiplatform/multiplatformmodule/SomeMultiPlatformClass
          */
         val jvmClass = SomeJvmClass()
+
+        assertTrue(true)
     }
 
 }
